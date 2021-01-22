@@ -1,0 +1,7 @@
+<h2>new book</h2>
+<form action="/books" method="POST" enctype="multipart/form-data">  
+    <!-- enctype tells server form is multipart -->
+    <%- include('_form_field.ejs') %>
+    <a href="/books">Cancel</a>
+    <button type="submit">Create</button>
+</form>
